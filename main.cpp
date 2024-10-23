@@ -15,6 +15,11 @@ int main()
 	gb.addSubjectGrade(SubjectGrade(Subject("English"), 9, ben));
 	cout << "-------------------" << endl;
 	gb.print();
+	Student s1 = Student("Zenya", "LOL", gb);
+	s1.Print();
+	s1.addGrade(SubjectGrade(Subject("It"), 9, ben));
+	s1.Print();
+
 
 
 	return 0;

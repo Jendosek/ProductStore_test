@@ -25,6 +25,7 @@
     <ClInclude Include="domain.h" />
     <ClInclude Include="gradebook_class.h" />
     <ClInclude Include="libs.h" />
+    <ClInclude Include="student_class.h" />
     <ClInclude Include="subject_class.h" />
     <ClInclude Include="subjectgrade_class.h" />
     <ClInclude Include="teacher_class.h" />
