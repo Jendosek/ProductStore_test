@@ -6,21 +6,23 @@
 
 class Gradebook
 {
-public:
+private:
 	vector<SubjectGrade> subjectGrades;
 
+public:
+	Gradebook() {}
 	Gradebook(const vector<SubjectGrade>& subjectGrades) : subjectGrades(subjectGrades) {}
 
-	void addSubjectGrade(const SubjectGrade& sg)
+	void addSubjectGrade(const SubjectGrade& subjectGrade)
 	{
-		subjectGrades.push_back(sg);
+		subjectGrades.push_back(subjectGrade);
 	}
 
 	void print()
 	{
-		for (SubjectGrade& sg : subjectGrades)
+		for (SubjectGrade& subjectGrade : subjectGrades)
 		{
-			sg.print();
+			subjectGrade.print();
 		}
 	}
 };

@@ -15,7 +15,7 @@ public:
 
     void print()
     {
-		cout << "Subject: " << subject.GetTitle() << "; Grade: " << grade << "; Teacher: " << teacher.getName() << " " << teacher.getSurname() << endl;
+		cout << "Subject: " << subject.getTitle() << "; Grade: " << grade << "; Teacher: " << teacher.getName() << " " << teacher.getSurname() << endl;
     }
 };
 

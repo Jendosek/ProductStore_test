@@ -1,5 +1,5 @@
-#ifndef SUBJECT_CLASS
-#define SUBJECT_CLASS
+#ifndef subject_c
+#define subject_c
 
 #include "libs.h"
 
@@ -11,23 +11,23 @@ private:
 public:
 	Subject(string title)
 	{
-		SetTitle(title);
+		setTitle(title);
 	}
 
-	void SetTitle(string title)
+	void setTitle(string title)
 	{
 		this->title = title;
 	}
-	string GetTitle()
+	string getTitle()
 	{
 		return title;
 	}
 
-	void Print()
+	void print()
 	{
-		cout << "Name: " << GetTitle() << endl;
+		cout << "Name: " << getTitle() << endl;
 	}
 };
 
-#endif 
+#endif // !subject_c
 
