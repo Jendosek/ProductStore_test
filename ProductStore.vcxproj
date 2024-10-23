@@ -23,6 +23,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="domain.h" />
+    <ClInclude Include="gradebook_class.h" />
     <ClInclude Include="libs.h" />
     <ClInclude Include="subject_class.h" />
     <ClInclude Include="subjectgrade_class.h" />
