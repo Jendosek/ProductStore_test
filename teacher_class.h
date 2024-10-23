@@ -10,8 +10,8 @@ private:
 	string surname;
 public:
 	Teacher(string name, string surname) {
-		this->name = name;
-		this->surname = surname;
+		setName(name);
+		setSurname(surname);
 	}
 	string getName() {
 		return name;
