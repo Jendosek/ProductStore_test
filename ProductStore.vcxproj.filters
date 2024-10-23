@@ -4,10 +4,27 @@
     <Filter Include="main">
       <UniqueIdentifier>{01267d37-ef30-41fc-83c9-357d6c101916}</UniqueIdentifier>
     </Filter>
+    <Filter Include="libs">
+      <UniqueIdentifier>{950640fc-747a-4062-80c3-edf42434a21e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="domain">
+      <UniqueIdentifier>{a0091170-2b84-4a52-ba51-e8e3ae5952d6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="data">
+      <UniqueIdentifier>{a260361e-ee2d-4b55-968a-b715f88f3c91}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
       <Filter>main</Filter>
     </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="libs.h">
+      <Filter>libs</Filter>
+    </ClInclude>
+    <ClInclude Include="domain.h">
+      <Filter>domain</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
