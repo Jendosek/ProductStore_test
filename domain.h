@@ -1,2 +1,2 @@
-<ClInclude Include="subject_class.h" />
-<ClInclude Include="teacher_class.h" />
+#include "subject_class.h"
+#include "teacher_class.h"
