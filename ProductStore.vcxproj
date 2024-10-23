@@ -25,6 +25,7 @@
     <ClInclude Include="domain.h" />
     <ClInclude Include="libs.h" />
     <ClInclude Include="subject_class.h" />
+    <ClInclude Include="teacher_class.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
